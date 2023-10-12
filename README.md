@@ -28,6 +28,8 @@ sudo crontab -e
 ### Останавливаем NCALayer
 
 Если вдруг необходимо остановить NCALayer выполняем в  коммандной строке:
+
+Переходим в папку с NCALayer-ом и запускаем
 ```
-/home/geek/NCALayer/stop.sh
+./stop.sh
 ```
