@@ -23,3 +23,11 @@ sudo crontab -e
 
 ```/home/geek``` - папка пользователя geek 
 
+
+
+### Останавливаем NCALayer
+
+Запускаем скрипт stop.sh из коммандной строки:
+```
+/home/geek/NCALayer/stop.sh
+```
