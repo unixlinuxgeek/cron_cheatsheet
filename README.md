@@ -8,16 +8,16 @@ sudo crontab -e
 
 #### И добавляем в самый конец:
 
+Где ```/script-path``` - путь до нашего скрипта
+
 ```@reboot /script-path/start.sh``` 
 
 Например:
- 
+
 ```
-# NCALayer запускается после 30 сек. с момента загрузки системы 
-@reboot /home/geek/AfterLoad/NCALayer/start.sh
+# NCALayer запустится после 30 сек. с момента загрузки системы 
+@reboot /home/geek/NCALayer/start.sh
 ```
 
+```/home/geek``` - папка пользователя geek 
 
-```geek``` - имя пользователя 
- 
-```AfterLoad``` - папка со скриптами
