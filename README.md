@@ -8,7 +8,7 @@ sudo crontab -e
 
 #### И добавляем в самый конец:
 
-``@reboot /script-path/start.sh``` 
+```@reboot /script-path/start.sh``` 
 
 Например:
  
