@@ -10,7 +10,9 @@ sudo crontab -e
 
 Где ```/script-path``` - путь до нашего скрипта
 
-```@reboot /script-path/start.sh``` 
+```
+@reboot /script-path/start.sh
+``` 
 
 Например:
 
