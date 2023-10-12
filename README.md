@@ -17,7 +17,7 @@ sudo crontab -e
 Например:
 
 ```
-# NCALayer запустится после 30 сек. с момента загрузки системы 
+# Запускаем NCALayer
 @reboot /home/geek/NCALayer/start.sh
 ```
 
